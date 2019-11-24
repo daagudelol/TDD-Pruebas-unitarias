@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'introPruebasUnitarias';
+  myVar = 'Hola Mundo'
+  nombre = 'Diego'
+
+  par(numero:number):boolean{
+    return numero%2===0 ? true : false
+  }
 }
